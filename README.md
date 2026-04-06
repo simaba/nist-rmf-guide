@@ -2,8 +2,8 @@
 
 [![NIST AI RMF 1.0](https://img.shields.io/badge/NIST%20AI%20RMF-1.0-0055A4?style=for-the-badge)](https://airc.nist.gov/home)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![Maintained](https://img.shields.io/badge/Maintained-yes-green.svg?style=flat-square)](https://github.com/simaba/nist-ai-rmf-implementation-guide)
-[![Discussions](https://img.shields.io/badge/GitHub-Discussions-7289da?style=flat-square&logo=github)](https://github.com/simaba/nist-ai-rmf-implementation-guide/discussions)
+[![Maintained](https://img.shields.io/badge/Maintained-yes-green.svg?style=flat-square)](https://github.com/simaba/nist-rmf-guide)
+[![Discussions](https://img.shields.io/badge/GitHub-Discussions-7289da?style=flat-square&logo=github)](https://github.com/simaba/nist-rmf-guide/discussions)
 
 **A practitioner's implementation guide for the NIST AI Risk Management Framework (AI RMF 1.0).**
 
@@ -112,11 +112,11 @@ This guide is part of a broader AI governance framework:
 
 | Repository | Purpose |
 |---|---|
-| [enterprise-ai-governance-playbook](https://github.com/simaba/enterprise-ai-governance-playbook) | End-to-end governance playbook |
-| [ai-release-readiness-checklist](https://github.com/simaba/ai-release-readiness-checklist) | Release gate framework |
+| [enterprise-ai-governance-playbook](https://github.com/simaba/governance-playbook) | End-to-end governance playbook |
+| [ai-release-readiness-checklist](https://github.com/simaba/release-checklist) | Release gate framework |
 | [ai-risk-taxonomy](https://github.com/simaba/ai-risk-taxonomy) | Structured risk taxonomy |
-| [regulated-ai-starter-kit](https://github.com/simaba/regulated-ai-starter-kit) | Template repo for regulated AI teams |
-| [awesome-ai-governance](https://github.com/simaba/awesome-ai-governance) | Curated resource list |
+| [regulated-ai-starter-kit](https://github.com/simaba/regulated-ai) | Template repo for regulated AI teams |
+| [awesome-ai-governance](https://github.com/simaba/ai-prism) | Curated resource list |
 
 ---
 
