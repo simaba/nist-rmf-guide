@@ -7,24 +7,17 @@
 
 **A practitioner's implementation guide for the NIST AI Risk Management Framework (AI RMF 1.0).**
 
-The official NIST AI RMF documentation is comprehensive but abstract. This guide
-translates the framework into **concrete actions, checklists, code examples, and
-templates** that engineering and governance teams can use directly.
+The official NIST AI RMF documentation is comprehensive but abstract. This guide translates the framework into **concrete actions, checklists, code examples, and templates** that engineering and governance teams can use directly.
 
-> This guide is maintained by an AI governance practitioner, not NIST. It reflects
-> a practitioner's interpretation of the framework. Always refer to the
-> [official NIST AI RMF documentation](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework)
-> for authoritative guidance.
+> This guide is maintained by an AI governance practitioner, not NIST. It reflects a practitioner's interpretation of the framework. Always refer to the [official NIST AI RMF documentation](https://www.nist.gov/artificial-intelligence/ai-risk-management-framework) for authoritative guidance.
 
 ---
 
 ## What Is the NIST AI RMF?
 
-The NIST AI Risk Management Framework (AI RMF 1.0, January 2023) is a voluntary
-framework for managing risks across the AI system lifecycle. It is organized around
-four core functions:
+The NIST AI Risk Management Framework (AI RMF 1.0, January 2023) is a voluntary framework for managing risks across the AI system lifecycle. It is organized around four core functions:
 
-```
+```text
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
 │   GOVERN    │ ──► │     MAP     │ ──► │   MEASURE   │ ──► │   MANAGE    │
 │             │     │             │     │             │     │             │
@@ -62,7 +55,7 @@ four core functions:
 
 ### If you have existing AI systems:
 1. Start with [02 - Map](docs/02-map.md) to categorize your current systems
-2. Apply the [Risk Taxonomy](../ai-risk-taxonomy) to identify gaps
+2. Use the [Risk Assessment Template](templates/risk-assessment.md) to identify gaps and document current controls
 3. Use [03 - Measure](docs/03-measure.md) to evaluate your current controls
 4. Prioritize gaps using the [Risk Register Template](templates/risk-register.md)
 
@@ -75,8 +68,7 @@ four core functions:
 
 ## The Seven Characteristics of Trustworthy AI
 
-The NIST AI RMF is built around seven characteristics that trustworthy AI systems should exhibit.
-This guide provides practical implementation guidance for each:
+The NIST AI RMF is built around seven characteristics that trustworthy AI systems should exhibit. This guide provides practical implementation guidance for each:
 
 | Characteristic | Description | Key Practices |
 |---|---|---|
@@ -93,8 +85,7 @@ This guide provides practical implementation guidance for each:
 
 ## GOVERN Function — Getting Started
 
-The GOVERN function establishes the organizational context for AI risk management.
-Key implementation steps:
+The GOVERN function establishes the organizational context for AI risk management. Key implementation steps:
 
 1. **Assign AI governance ownership** — designate an AI governance lead or committee
 2. **Document AI use policies** — what AI is allowed and not allowed at your organization
@@ -112,18 +103,17 @@ This guide is part of a broader AI governance framework:
 
 | Repository | Purpose |
 |---|---|
-| [enterprise-ai-governance-playbook](https://github.com/simaba/governance-playbook) | End-to-end governance playbook |
-| [ai-release-readiness-checklist](https://github.com/simaba/release-checklist) | Release gate framework |
-| [ai-risk-taxonomy](https://github.com/simaba/ai-risk-taxonomy) | Structured risk taxonomy |
-| [regulated-ai-starter-kit](https://github.com/simaba/regulated-ai) | Template repo for regulated AI teams |
-| [awesome-ai-governance](https://github.com/simaba/ai-prism) | Curated resource list |
+| [governance-playbook](https://github.com/simaba/governance-playbook) | End-to-end governance playbook |
+| [release-checklist](https://github.com/simaba/release-checklist) | Release gate framework |
+| [release-governance](https://github.com/simaba/release-governance) | Governance for AI release lifecycles |
+| [regulated-ai](https://github.com/simaba/regulated-ai) | Starter repository for regulated AI teams |
+| [ai-prism](https://github.com/simaba/ai-prism) | Curated resource list |
 
 ---
 
 ## Contributing
 
-This guide improves through practitioner feedback. If you have implemented
-NIST AI RMF and have insights to share, see [CONTRIBUTING.md](CONTRIBUTING.md).
+This guide improves through practitioner feedback. If you have implemented NIST AI RMF and have insights to share, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Especially valuable:
 - Industry-specific implementation examples
