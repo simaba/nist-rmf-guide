@@ -48,21 +48,21 @@ The NIST AI Risk Management Framework (AI RMF 1.0, January 2023) is a voluntary 
 ## Quick Start: Where to Begin
 
 ### If you are starting from scratch:
-1. Read [01 - Govern](docs/01-govern.md) — establish who owns AI governance
-2. Complete the [Model Inventory Template](templates/model-inventory.md)
-3. Run through [02 - Map](docs/02-map.md) for your highest-risk AI system
-4. Use the [Risk Assessment Template](templates/risk-assessment.md)
+1. Read [01 - Govern](docs/01-govern.md) to establish who owns AI governance.
+2. Complete the [Model Inventory Template](templates/model-inventory.md).
+3. Run through [02 - Map](docs/02-map.md) for your highest-risk AI system.
+4. Use the [Risk Assessment Template](templates/risk-assessment.md).
 
 ### If you have existing AI systems:
-1. Start with [02 - Map](docs/02-map.md) to categorize your current systems
-2. Use the [Risk Assessment Template](templates/risk-assessment.md) to identify gaps and document current controls
-3. Use [03 - Measure](docs/03-measure.md) to evaluate your current controls
-4. Prioritize gaps using the [Risk Register Template](templates/risk-register.md)
+1. Start with [02 - Map](docs/02-map.md) to categorize your current systems.
+2. Use the [Risk Assessment Template](templates/risk-assessment.md) to identify governance gaps.
+3. Use [03 - Measure](docs/03-measure.md) to evaluate your current controls.
+4. Prioritize gaps using the [Risk Register Template](templates/risk-register.md).
 
 ### If you are preparing for compliance:
-1. Review the [EU AI Act Mapping](docs/eu-ai-act-mapping.md) if EU-facing
-2. Check the [ISO 42001 Mapping](docs/iso-42001-mapping.md) for certification readiness
-3. Use the [Governance Checklist](templates/governance-checklist.md) for a gap assessment
+1. Review the [EU AI Act Mapping](docs/eu-ai-act-mapping.md) if EU-facing.
+2. Check the [ISO 42001 Mapping](docs/iso-42001-mapping.md) for certification readiness.
+3. Use the [Governance Checklist](templates/governance-checklist.md) for a gap assessment.
 
 ---
 
@@ -105,7 +105,7 @@ This guide is part of a broader AI governance framework:
 |---|---|
 | [governance-playbook](https://github.com/simaba/governance-playbook) | End-to-end governance playbook |
 | [release-checklist](https://github.com/simaba/release-checklist) | Release gate framework |
-| [release-governance](https://github.com/simaba/release-governance) | Governance for AI release lifecycles |
+| [release-governance](https://github.com/simaba/release-governance) | Release lifecycle governance |
 | [regulated-ai](https://github.com/simaba/regulated-ai) | Starter repository for regulated AI teams |
 | [ai-prism](https://github.com/simaba/ai-prism) | Curated resource list |
 
