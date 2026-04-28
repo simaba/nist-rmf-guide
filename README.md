@@ -20,6 +20,15 @@ Use a different repo when you need:
 
 > This guide is maintained by a practitioner, not NIST. Always refer to the official NIST documentation for authoritative language.
 
+## Practical start point
+
+If you already have AI systems and want to identify gaps, start here:
+
+| Artifact | Use for |
+|---|---|
+| [`templates/nist-rmf-gap-assessment.md`](templates/nist-rmf-gap-assessment.md) | Assessing current maturity across Govern, Map, Measure, and Manage |
+| [`examples/sample-nist-rmf-gap-assessment.md`](examples/sample-nist-rmf-gap-assessment.md) | Seeing a filled generic example of an RMF-style gap assessment |
+
 ## Guide structure
 
 | Section | What you will find |
@@ -45,8 +54,8 @@ Use a different repo when you need:
 
 ### If you have existing AI systems
 
-1. Start with [02 - Map](docs/02-map.md)
-2. Use the [Risk Assessment Template](templates/risk-assessment.md)
+1. Start with the [NIST AI RMF Gap Assessment Template](templates/nist-rmf-gap-assessment.md)
+2. Compare against the [sample gap assessment](examples/sample-nist-rmf-gap-assessment.md)
 3. Use [03 - Measure](docs/03-measure.md) to evaluate current controls
 4. Prioritize gaps using the [Risk Register Template](templates/risk-register.md)
 
