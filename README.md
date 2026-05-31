@@ -20,6 +20,10 @@ Use a different repo when you need:
 
 > This guide is maintained by a practitioner, not NIST. Always refer to the official NIST documentation for authoritative language.
 
+## Maturity
+
+This is a **practitioner implementation guide**. It is designed to help teams structure gap assessments, templates, implementation sequences, and internal discussions. It is not an official NIST document, audit result, compliance certification, or regulatory determination.
+
 ## Practical start point
 
 If you already have AI systems and want to identify gaps, start here:
@@ -40,8 +44,8 @@ If you already have AI systems and want to identify gaps, start here:
 | [Templates](templates/) | Ready-to-use document templates |
 | [Examples](examples/) | Industry-specific implementation examples |
 | [Tools](tools/) | Scripts and utilities for automated governance checks |
-| [EU AI Act Mapping](docs/eu-ai-act-mapping.md) | Cross-reference between NIST AI RMF and EU AI Act |
-| [ISO 42001 Mapping](docs/iso-42001-mapping.md) | Cross-reference with ISO/IEC 42001 |
+| [EU AI Act Mapping](docs/eu-ai-act-mapping.md) | Practitioner cross-reference between NIST AI RMF and EU AI Act concepts |
+| [ISO 42001 Mapping](docs/iso-42001-mapping.md) | Practitioner cross-reference with ISO/IEC 42001 |
 
 ## Quick start
 
@@ -64,6 +68,13 @@ If you already have AI systems and want to identify gaps, start here:
 1. Review the [EU AI Act Mapping](docs/eu-ai-act-mapping.md)
 2. Check the [ISO 42001 Mapping](docs/iso-42001-mapping.md)
 3. Use the [Governance Checklist](templates/governance-checklist.md)
+4. Verify all interpretations against official sources and qualified internal reviewers before using them for compliance decisions
+
+## Scope and disclaimer
+
+This repository is shared in a personal capacity. It is not legal advice, compliance certification, regulatory approval, safety certification, audit evidence, or official guidance from NIST, the EU, ISO, or any employer.
+
+References to NIST AI RMF, EU AI Act, ISO/IEC 42001, governance controls, or regulated-industry obligations are practitioner mappings and examples. Always verify against official sources and internal requirements before using this guide for compliance, safety, or release decisions.
 
 ## Related repositories
 
