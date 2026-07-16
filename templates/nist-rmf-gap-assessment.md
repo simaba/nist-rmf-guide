@@ -1,107 +1,154 @@
-# NIST AI RMF Gap Assessment
+# NIST AI RMF Evidence and Gap Assessment
 
-Use this template to assess current AI governance maturity against the NIST AI RMF functions: Govern, Map, Measure, and Manage.
+Use this practitioner template to organize an internal review informed by the NIST AI Risk Management Framework functions: Govern, Map, Measure, and Manage.
 
-> This is a practitioner template. It is not an official NIST artifact and is not a compliance certification.
+This is not an official NIST artifact, implementation score, audit, profile, or certification. Begin from the official AI RMF material and select the categories and subcategories relevant to the actual system and organizational context.
 
-## 1. Assessment Metadata
+## 1. Assessment scope
 
 | Field | Value |
 |---|---|
 | Organization / team | `[TBD]` |
-| AI system or portfolio | `[TBD]` |
-| Assessment date | `[TBD]` |
-| Assessor | `[TBD]` |
-| Scope | `[single system / product line / portfolio]` |
-| Risk tier | `[low / medium / high]` |
-| Review cadence | `[TBD]` |
+| System, use case, or portfolio | `[TBD]` |
+| Versions / environments covered | `[TBD]` |
+| User and affected populations | `[TBD]` |
+| Lifecycle decision supported | `[TBD]` |
+| Assessment owner | `[TBD]` |
+| Required reviewers | `[TBD]` |
+| Evidence cutoff | `[TBD]` |
+| Explicit exclusions | `[TBD]` |
+| Next review / invalidation trigger | `[TBD]` |
 
-## 2. Summary Rating
+## 2. Authoritative references selected
 
-| RMF Function | Current maturity | Target maturity | Gap severity | Priority |
-|---|---|---|---|---|
-| Govern | `[0-5]` | `[0-5]` | `[low/medium/high]` | `[low/medium/high]` |
-| Map | `[0-5]` | `[0-5]` | `[low/medium/high]` | `[low/medium/high]` |
-| Measure | `[0-5]` | `[0-5]` | `[low/medium/high]` | `[low/medium/high]` |
-| Manage | `[0-5]` | `[0-5]` | `[low/medium/high]` | `[low/medium/high]` |
+Record the official function, category, and subcategory language used for this assessment. Do not rely on a secondary summary when the exact source affects the conclusion.
 
-### Maturity scale
+| Reference ID | Official source / version | Why relevant | Internal interpretation owner |
+|---|---|---|---|
+| `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
 
-| Score | Meaning |
+## 3. Evidence status vocabulary
+
+Use evidence states rather than one function-level maturity number.
+
+| Status | Meaning |
 |---|---|
-| 0 | Not started |
-| 1 | Ad hoc and undocumented |
-| 2 | Documented but inconsistent |
-| 3 | Implemented for priority systems |
-| 4 | Standardized and measured |
-| 5 | Continuously improved |
+| **Demonstrated** | Current evidence shows the practice or outcome operating for the reviewed scope. |
+| **Partially demonstrated** | Some scope or elements have evidence; limitations are material. |
+| **Documented, not demonstrated** | A policy or design exists, but operating evidence is absent or insufficient. |
+| **Not demonstrated** | Required evidence is absent or the practice is not operating. |
+| **Not applicable** | The organization has a documented, reviewed rationale for the scoped decision. |
+| **Unknown** | The assessor cannot determine the state from available evidence. |
 
-## 3. Govern
+A template, policy, or meeting is evidence that documentation or process exists—not automatically that the intended control or outcome is effective.
 
-| Control area | Current state | Evidence | Gap | Action owner | Due date |
-|---|---|---|---|---|---|
-| AI policy and principles | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Roles and accountability | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| System inventory | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Risk-tiering process | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Governance review cadence | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
+## 4. Evidence quality
 
-## 4. Map
+For each item, record:
 
-| Control area | Current state | Evidence | Gap | Action owner | Due date |
-|---|---|---|---|---|---|
-| Use-case context | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Stakeholder and impact mapping | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Data and dependency mapping | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Harm and failure-mode identification | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Regulatory or policy context | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
+- source and location;
+- system / process version;
+- owner and date;
+- method used;
+- coverage and population;
+- limitations and uncertainty;
+- freshness and invalidation trigger;
+- reviewer and disagreement;
+- whether the evidence demonstrates design, operation, or outcome.
 
-## 5. Measure
+## 5. Govern review
 
-| Control area | Current state | Evidence | Gap | Action owner | Due date |
-|---|---|---|---|---|---|
-| Performance evaluation | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Fairness and subgroup testing | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Robustness and red-team testing | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Monitoring and drift metrics | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Traceability and auditability | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
+Select the relevant official references and translate them into decision-relevant propositions for the reviewed scope.
 
-## 6. Manage
+| Source reference | Proposition to assess | Evidence and provenance | Status | Limitation / gap | Decision consequence | Owner / due |
+|---|---|---|---|---|---|---|
+| `[TBD]` | Are decision, control, incident, and residual-risk owners authorized and current? | `[TBD]` | `[status]` | `[TBD]` | `[TBD]` | `[TBD]` |
+| `[TBD]` | Are policies, review paths, exceptions, and change triggers operating for this scope? | `[TBD]` | `[status]` | `[TBD]` | `[TBD]` | `[TBD]` |
+| `[TBD]` | Are affected-party input, accountability, and redress responsibilities defined where relevant? | `[TBD]` | `[status]` | `[TBD]` | `[TBD]` | `[TBD]` |
 
-| Control area | Current state | Evidence | Gap | Action owner | Due date |
-|---|---|---|---|---|---|
-| Risk treatment plan | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Release gate decision process | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Incident response and escalation | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Post-release review | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
-| Retirement or rollback criteria | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
+## 6. Map review
 
-## 7. Top Gaps
+| Source reference | Proposition to assess | Evidence and provenance | Status | Limitation / gap | Decision consequence | Owner / due |
+|---|---|---|---|---|---|---|
+| `[TBD]` | Are intended use, prohibited use, users, affected populations, and environment bounded? | `[TBD]` | `[status]` | `[TBD]` | `[TBD]` | `[TBD]` |
+| `[TBD]` | Are data, model, tool, supplier, and operational dependencies understood? | `[TBD]` | `[status]` | `[TBD]` | `[TBD]` | `[TBD]` |
+| `[TBD]` | Are foreseeable benefits, harms, misuse, failures, and reversibility contextualized? | `[TBD]` | `[status]` | `[TBD]` | `[TBD]` | `[TBD]` |
 
-| Gap | RMF function | Severity | Recommended action | Owner | Due date |
-|---|---|---|---|---|---|
-| `[TBD]` | `[Govern/Map/Measure/Manage]` | `[low/medium/high]` | `[TBD]` | `[TBD]` | `[TBD]` |
+## 7. Measure review
 
-## 8. Improvement Roadmap
+| Source reference | Proposition to assess | Evidence and provenance | Status | Limitation / gap | Decision consequence | Owner / due |
+|---|---|---|---|---|---|---|
+| `[TBD]` | Do evaluation and monitoring methods measure the stated properties for the intended population? | `[TBD]` | `[status]` | `[TBD]` | `[TBD]` | `[TBD]` |
+| `[TBD]` | Are evaluator validity, uncertainty, slices, and critical failures visible? | `[TBD]` | `[status]` | `[TBD]` | `[TBD]` | `[TBD]` |
+| `[TBD]` | Are control and outcome results traceable to the reviewed system version? | `[TBD]` | `[status]` | `[TBD]` | `[TBD]` | `[TBD]` |
 
-### Next 30 days
+## 8. Manage review
 
-- `[TBD]`
+| Source reference | Proposition to assess | Evidence and provenance | Status | Limitation / gap | Decision consequence | Owner / due |
+|---|---|---|---|---|---|---|
+| `[TBD]` | Are risks prioritized and treated through enforceable decisions and controls? | `[TBD]` | `[status]` | `[TBD]` | `[TBD]` | `[TBD]` |
+| `[TBD]` | Are release, hold, exception, residual-risk, incident, rollback, and retirement decisions accountable? | `[TBD]` | `[status]` | `[TBD]` | `[TBD]` | `[TBD]` |
+| `[TBD]` | Are treatments monitored, tested, and changed when evidence or context changes? | `[TBD]` | `[status]` | `[TBD]` | `[TBD]` | `[TBD]` |
 
-### Next 90 days
+## 9. Material gaps and dependencies
 
-- `[TBD]`
+Prioritize by decision consequence, affected people, authority, and evidence—not by subtracting arbitrary maturity scores.
 
-### Next 180 days
+| Gap ID | Gap or uncertainty | Function / source | Decision affected | Consequence if unresolved | Evidence required | Owner | Due / trigger | Disposition |
+|---|---|---|---|---|---|---|---|---|
+| GAP-001 | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | blocker / action / condition / defer |
 
-- `[TBD]`
+## 10. Strengths and reusable evidence
 
-## 9. Review Decision
+Record demonstrated practices and evidence that can be reused, including its scope and expiry.
 
-- [ ] Current controls acceptable for scope
-- [ ] Acceptable with remediation plan
-- [ ] Not acceptable until high-severity gaps are closed
+| Practice / evidence | Scope | Why credible | Reuse conditions | Owner / location |
+|---|---|---|---|---|
+| `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
 
-Decision rationale:
+A gap assessment that records only deficiencies encourages inflated maturity claims later and discards useful operating evidence.
+
+## 11. Decision and improvement plan
+
+**Decision supported:** `[TBD]`
+
+**Outcome:** proceed | proceed with conditions | hold | redesign | defer | other
+
+**Rationale:**
 
 `[TBD]`
+
+### Conditions, actions, and residual risks
+
+| Item | Type | Owner | Due / expiry | Verification | Escalation / stop trigger |
+|---|---|---|---|---|---|
+| `[TBD]` | condition / action / exception / residual risk | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
+
+### Operating-model improvements
+
+Separate system-specific remediation from improvements to the governance process itself.
+
+| Improvement | Failure demand addressed | Owner | Evidence of improvement | Review date |
+|---|---|---|---|---|
+| `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` | `[TBD]` |
+
+## 12. Assessment limitations
+
+- references not reviewed:
+- evidence unavailable or stale:
+- affected groups not represented:
+- methods not independently reviewed:
+- system or environment changes expected:
+- other limitations:
+
+## Reviewer checklist
+
+- [ ] Official source references and versions are recorded.
+- [ ] Scope, decision, system version, populations, and exclusions are explicit.
+- [ ] Status reflects evidence, not document existence or assessor impression.
+- [ ] Not-applicable conclusions have reviewed rationale.
+- [ ] Evidence provenance, limitations, and freshness are visible.
+- [ ] Material gaps are tied to decision consequence.
+- [ ] Conditions, exceptions, and residual risks have owners and expiry.
+- [ ] System remediation and governance-process improvement are separated.
+- [ ] The report does not claim NIST implementation or compliance solely from template completion.
